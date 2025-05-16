@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- INI UNTUK FONT PRODUCT NAME -->
+    <link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Figtree' rel='stylesheet'>
+    <title>PERFUME</title>
+    <style>
+        .responsive{
+            display: grid;
+             width: 343px;
+             height: 611px;
+             border: 1px solid black;
+             border-radius: 20px;
+             background-color: white;
+             grid-template-rows: 1fr 2fr ;
+
+             @media screen and (min-width:1025px) {
+                width: 600px;
+                height: 450px;
+                grid-template-columns: 1fr 2fr;
+                #div1img{
+                    width: 300px;
+                    height:450px;
+                }
+                #perfumetext{
+                    margin-bottom: -20px;
+                }
+                #productname{
+                    margin-right: 40px;
+                    margin-bottom: 10px;
+                }
+                #addtocartimg{
+                position: relative;
+                margin-left: 40px;
+                bottom: -30px;
+                }
+                
+                #perfumetext{
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 23px;
+                word-spacing: 1px;
+                margin-left:30px
+                }
+                #description{
+                    position: relative;
+                    bottom:-30px;
+                }
+                #pricing{
+                    position: relative;
+                    bottom:-50px;
+                }
+                #discount{
+                    position: relative;
+                    bottom:-50px;
+                }
+                #addtocartimg{
+                    margin-top: 30px;
+                    width:236px;
+                    height: 48px;
+                }
+             }
+        }
+        #div1img{
+            width: 343px;
+            height: 240px;
+            border-radius: 19px;
+        }
+        #perfumetext{
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            word-spacing: 1px;
+            margin-left:30px
+        }
+        #productname{
+            font-family: 'Fraunces';
+            font-weight: 700;
+            font-size: 32px;
+            margin-left:30px;
+            line-height: 32px;
+        }
+        #description{
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            word-spacing: 1px;
+            margin-left:30px
+        }
+        #pricing{
+            float:left;
+            font-family: 'Fraunces';
+            color: #3D8168;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            margin-left:30px;
+            margin-top: 10px;
+        }
+        #discount{
+            float: left;
+            text-decoration: line-through;
+            font-size: 13px;
+            margin-top: 35px; 
+            line-height: 23px;  
+            margin-top: 5%;     
+        }
+        #addtocartimg{
+            position: relative;
+            margin-left: 60px;
+            bottom: 30px;
+            width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body style="background-color: beige;">
+    <div class="responsive">
+    <div ><img id="div1img" src="/img/perfume.png" alt="perfumeimage"></div>
+    <div>
+        <p id="perfumetext">Perfume</p>
+        <p id="productname">Gabrielle Essence Eau De Parfum</p>
+        <p id="description">A floral, solar and voluptuous<br> interpretation composed by<br>
+        Olivier Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <p id="pricing">$149.99 &nbsp&nbsp&nbsp</p> <p id="discount">$169.99</p>
+        <img id="addtocartimg" src= "img/Group.png" alt="addtocart">
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- INI UNTUK FONT PRODUCT NAME -->
+    <link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Figtree' rel='stylesheet'>
+    <title>HTML & CSS FOUNDATIONS</title>
+    <style>
+      .responsive{
+            /*desktop*/
+            @media screen and (min-width:1025px){
+               #div2text{
+            font-family: 'Figtree';
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+            background-color:bisque; 
+            width:73px;
+            height:26px; 
+            }
+            #div3text{
+            font-family: 'Figtree';
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 150%;
+         }
+         #div4text{
+            font-family: 'Figtree';
+            font-size: 20px;
+            font-weight: 800;
+            color: #111111;
+         }
+         }
+         }   
+      
+      #grid{
+            margin-top: 20px;
+            margin-left: 20px;
+            display: grid;
+            gap: 15px;
+         }
+         #layout{
+            width: 327px; 
+            height:501px; 
+            border: 1px solid black;
+            border-radius: 20px;
+         }
+         #div2text{
+            font-family: 'Figtree';
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+            background-color:#F4D04E; 
+            width:73px;
+            height:26px; 
+         }
+         #div3text{
+            font-family: 'Figtree';
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 150%;
+         }
+         #div4text{
+            font-family: 'Figtree';
+            font-size: 20px;
+            font-weight: 800;
+            color: #111111;
+         }
+         #div5text{
+            font-family: 'Figtree';
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 150%;
+         }
+         #div6text{
+            float: left;
+            font-family: 'Figtree';
+            font-weight: 800;
+            margin-top: 0px;
+            margin-left: 0px;
+         }
+         
+    </style>
+</head>
+<body>
+ 
+    <div class="responsive" id="layout">  
+    <div class="responsive" id="grid">
+        <div><img src="/img/blogImage.png" alt="blogimage"></div>
+        <div class="responsive" id="div2text">&nbsp;Learning</div>
+        <div class="responsive" id="div3text">Published 21 Dec 2023</div>
+        <div class="responsive" id="div4text">HTML & CSS foundations</div>
+        <div class="responsive" id="div5text">These languages are the 
+        backbone of every website, defining structure, 
+        content, and presentation.</div>
+        <div class="responsive" id="div6text"><img src="/img/userpic.png" alt="userpic"
+          style="float:left">&nbsp;&nbsp;&nbsp;Greg Hooper </div>
+      </div>
+     </div>
+     
+</body>
+</html>
